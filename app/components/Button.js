@@ -1,10 +1,10 @@
 "use client"
 import React from 'react';
 import { Button } from '@mui/material';
-import CreatePost from './CreatePost';
 
 export default function CustomButton({
   children,
+  onClick,
   variant = 'contained',
   color = 'primary',
   fullWidth = false,
@@ -17,7 +17,7 @@ export default function CustomButton({
     
       variant={variant}
       color={color}
-      onClick={CreatePost}
+      onClick={onClick}
       fullWidth={fullWidth}
       size={size}
       {...props}

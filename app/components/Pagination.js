@@ -17,7 +17,7 @@ export default function PaginationRounded({ totalPages, page, onChange }) {
                 '& .Mui-selected': {
                     backgroundColor: 'white',
                     color: 'black',
-                    borderColor: 'white',
+                    borderColor: 'black',
                 },
                 '& .Mui-selected:hover': {
                     backgroundColor: '#f0f0f0',
